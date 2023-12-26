@@ -24,7 +24,7 @@ function ParagraphsArea() {
     <>
       {status === "loading" && <Loading />}
       <div className='w-full  '>
-        <div className='container w-[300px] md:w-[700px] lg:w-[900px] px-10 py-10 flex items-center justify-center  rounded-lg bg-[#303030] '>
+        <div className='container w-[300px] md:w-[700px] lg:w-[900px] px-10 py-10 flex items-center justify-center  rounded-lg bg-[#303030] text-gray-50'>
           {paragraph}
 
         </div>
